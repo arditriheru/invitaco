@@ -47,6 +47,24 @@
 	<script src="<?php echo base_url(); ?>assets/theme1/js/respond.min.js"></script>
 <![endif]-->
 
+<audio id="myAudio">
+	<source src="https://my.possiblewedding.com/wp-content/uploads/devi-lio.mp3" type="audio/mp3">
+	</audio>
+
+	<script>
+		var x = document.getElementById("myAudio"); 
+
+		function playAudio() { 
+			x.play(); 
+		} 
+
+		function pauseAudio() { 
+			x.pause(); 
+		} 
+
+
+	</script>
+
 </head>
 <body>
 	
@@ -70,11 +88,11 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
-							<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<div class="display-tc animate-box">
 								<h2>Undangan Pernikahan</h2>
 								<h1><?php echo $mp." &amp; ".$mw ?></h1>
 								<h2>Kepada Yth : <?php echo $yth; ?></h2>
-								<p><a href="#fh5co-couple" class="btn btn-default btn-sm">Buka Undangan</a></p>
+								<p><a href="#fh5co-couple" class="btn btn-default btn-sm" onclick="playAudio();">Buka Undangan</a></p>
 							</div>
 						</div>
 					</div>
@@ -121,7 +139,7 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
-							<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<div class="display-tc animate-box">
 								<div class="simply-countdown simply-countdown-one"></div>
 							</div>
 						</div>
@@ -199,11 +217,11 @@
 					<div class="col-md-12">
 						<ul id="fh5co-gallery-list">
 
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(<?php echo base_url(); ?>/assets/theme1/images/gallery1.jpg); "> 
+							<li class="one-third animate-box" style="background-image: url(<?php echo base_url(); ?>/assets/theme1/images/gallery1.jpg); "> 
 							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(<?php echo base_url(); ?>/assets/theme1/images/gallery1.jpg); "> 
+							<li class="one-third animate-box" style="background-image: url(<?php echo base_url(); ?>/assets/theme1/images/gallery1.jpg); "> 
 							</li>
-							<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(<?php echo base_url(); ?>/assets/theme1/images/gallery1.jpg); "> 
+							<li class="one-third animate-box" style="background-image: url(<?php echo base_url(); ?>/assets/theme1/images/gallery1.jpg); "> 
 							</li>
 						</ul>		
 					</div>
@@ -330,7 +348,7 @@
 
 				<div class="row">
 					<div class="col-md-6">
-						<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<div class="feature-left animate-box">
 							<span class="icon">
 								<i class="icon-calendar"></i>
 							</span>
@@ -340,7 +358,7 @@
 							</div>
 						</div>
 
-						<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<div class="feature-left animate-box">
 							<span class="icon">
 								<i class="icon-image"></i>
 							</span>
@@ -350,7 +368,7 @@
 							</div>
 						</div>
 
-						<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<div class="feature-left animate-box">
 							<span class="icon">
 								<i class="icon-video"></i>
 							</span>
