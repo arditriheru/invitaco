@@ -64,7 +64,7 @@
 			</div>
 		</nav>
 
-		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(<?php echo base_url(); ?>/assets/theme1/images/the-wedding-of.jpg);" data-stellar-background-ratio="0.5">
+		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(<?php echo base_url(); ?>/assets/theme1/images/the-wedding-of.jpg); background-position: 50%;">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -373,7 +373,7 @@
 			</div>
 		</div> -->
 
-		<div id="fh5co-started" class="fh5co-bg" style="background-image:url(<?php echo base_url(); ?>/assets/theme1/images/bg-attending.jpg);">
+		<div id="fh5co-started" class="fh5co-bg" style="background-image:url(<?php echo base_url(); ?>/assets/theme1/images/bg-attending.jpg); background-position: 50%;">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row animate-box">
@@ -383,24 +383,34 @@
 					</div>
 				</div>
 				<div class="row animate-box">
-					<div class="col-md-3 col-sm-6 animate-box">
-						<div class="feature-center">
-							<img src="<?php echo base_url(); ?>assets/theme1/images/social-distancing.png" alt="groom" class="img-responsive">
+					<div class="display-tc">
+						<div class="col-md-3 col-sm-6 animate-box">
+							<div class="feature-center">
+								<span>
+									<img src="<?php echo base_url(); ?>assets/theme1/images/social-distancing.png">
+								</span><br>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 animate-box">
-						<div class="feature-center">
-							<img src="<?php echo base_url(); ?>assets/theme1/images/mask.png" alt="groom" class="img-responsive">
+						<div class="col-md-3 col-sm-6 animate-box">
+							<div class="feature-center">
+								<span>
+									<img src="<?php echo base_url(); ?>assets/theme1/images/mask.png">
+								</span><br>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 animate-box">
-						<div class="feature-center">
-							<img src="<?php echo base_url(); ?>assets/theme1/images/wash-your-hands.png" alt="groom" class="img-responsive">
+						<div class="col-md-3 col-sm-6 animate-box">
+							<div class="feature-center">
+								<span>
+									<img src="<?php echo base_url(); ?>assets/theme1/images/wash-your-hands.png">
+								</span><br>
+							</div>
 						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 animate-box">
-						<div class="feature-center">
-							<img src="<?php echo base_url(); ?>assets/theme1/images/thermometer.png" alt="groom" class="img-responsive">
+						<div class="col-md-3 col-sm-6 animate-box">
+							<div class="feature-center">
+								<span>
+									<img src="<?php echo base_url(); ?>assets/theme1/images/thermometer.png">
+								</span><br>
+							</div>
 						</div>
 					</div>
 				</div>
